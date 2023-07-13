@@ -10,16 +10,16 @@ This project is a Job Application website built with Laravel that includes a Res
 
 ## Installation
 1. Clone the repository:
-   shell
+   ```shell
    git clone https://github.com/EMMANUELOMONDI/Job-Allocation-Project.git
 
 2. Install Laravel dependencies:
-   shell
+   ```shell
    composer install laravel
    composer create-project --prefer-dist project/job-website
 
 3. Install Python dependencies:
-   shell
+   ```shell
    pip install scikit-learn
    pip install docx2txt
    pip install pdfminer
@@ -29,15 +29,15 @@ This project is a Job Application website built with Laravel that includes a Res
   Copy the .env.example file to .env and update the database credentials.
    
  5. Run database migrations:
-    shell
+    ```shell
     php artisan migrate
 
  7. Generate the application key:
-    shell
+    ```shell
     php artisan key: generate
 
  9. Start the development server:
-    shell
+    ```shell
     php artisan serve
 
  11. Access the website at http://localhost:8000.
@@ -66,12 +66,12 @@ to discuss what you would like to change.
 
 1. Fork the repository.
     Create a new branch:
-    shell
+    ```shell
     git checkout -b feature/your-feature-name.
 
 2. Make your changes and commit them:
-   shell
-    git commit -m 'Add some feature'.
+   ```shell
+   git commit -m 'Add some feature'.
 
 3. Push to the branch:
     ```shell
