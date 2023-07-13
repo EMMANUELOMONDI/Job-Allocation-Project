@@ -6,7 +6,7 @@ This project is a Job Application website built with Laravel that includes a Res
 - Laravel 9
 - Python 3
 - FastAPI
-- Python libraries: scikit-learn, pdfminer, doc2txt.
+- Python libraries: scikit-learn, pdfminer, docx2txt.
 
 ## Installation
 1. Clone the repository:
