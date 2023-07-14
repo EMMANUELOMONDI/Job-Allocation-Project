@@ -19,16 +19,21 @@ This project is a Job Application website built with Laravel that includes a Res
    composer create-project --prefer-dist project/job-website
 
 3. Install Python dependencies:
+   -Create the Virtual Enivronment 
    ```shell
+   pip install virtualenv
+   virtualvenv venv
+   source ./venv/bin/activate
+   
    pip install scikit-learn
    pip install docx2txt
    pip install pdfminer
 
- 4. Set up the database:
+ 5. Set up the database:
   Create a new MySQL database.
   Copy the .env.example file to .env and update the database credentials.
    
- 5. Run database migrations:
+ 6. Run database migrations:
     ```shell
     php artisan migrate
 
@@ -36,11 +41,11 @@ This project is a Job Application website built with Laravel that includes a Res
     ```shell
     php artisan key: generate
 
- 9. Start the development server:
+ 8. Start the development server:
     ```shell
     php artisan serve
 
- 11. Access the website at http://localhost:8000.
+ 9. Access the website at http://localhost:8000.
 
 ## Configuration
 Make sure to set the appropriate environment variables in the .env file for database connections, Python path, etc.
